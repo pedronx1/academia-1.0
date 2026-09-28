@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(/assests/wp10509091.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+}
+
+header {
+    display: flex;          
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-between;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    gap: 30px;  
+} 
+
+.navegacao a{
+    text-decoration: none;
+    color:white;
+}
+
+#Login{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 10px;
+}
+
+#botaoLogin{
+    border-radius: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    width: 75px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#botaoLogin:hover{
+    background-color:darkgray;
+}
+
+#botaoLogin a {
+    text-decoration: none;
+    color: black; 
+    box-shadow: black 2px ;
+}
+
+#all-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#PrimeiraSecao{
+    width: 150px;
+    min-height: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#PrimeiraSecao:hover{
+    transform: scale(1.1);
+}
+
+#botaoPlano1{
+    border-radius: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    width: 75px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#botaoPlano1:hover{
+    background-color:darkgray;
+}
+
+#botaoPlano1 a {
+    text-decoration: none;
+    color: black; 
+}
+
+#SegundaSecao{
+    width: 150px;
+    min-height: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#SegundaSecao:hover{
+    transform: scale(1.1);
+}
+
+#botaoPlano2{
+    border-radius: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    width: 75px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#botaoPlano2:hover{
+    background-color:darkgray;
+}
+
+#botaoPlano2 a {
+    text-decoration: none;
+    color: black; 
+}
+
+#TerceiraSecao{
+    width: 150px;
+    min-height: 300px;
+    margin-left: 30px;
+    margin-top: 25px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#TerceiraSecao:hover{
+    transform: scale(1.1);
+}
+
+#botaoPlano3{
+    border-radius: 13px;
+    text-decoration: none;
+    text-align: center;
+    padding: 9px;
+    width: 75px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+#botaoPlano3:hover{
+    background-color:darkgray;
+}
+
+#botaoPlano3 a {
+    text-decoration: none;
+    color: black; 
+}
+
+#avaliacoes{
+    display:flex;
+    flex-direction: row;
+    color: black;
+    gap: 30px ;
+    text-align: center;
+    margin: 30px;
+    position: absolute;
+    bottom: -1px;
+    
+
+}
+
+.avaliacao1{
+    width: 320px;
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+    justify-items: start;
+    transition: transform 0.3s ease;
+    
+}
+
+.avaliacao1:hover{
+    transform: scale(1.1);
+}
+
+.avaliacao2{
+    width: 320px;
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.avaliacao2:hover{
+    transform: scale(1.1);
+}
+
+.avaliacao3{
+    width: 320px;
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.avaliacao3:hover{
+    transform: scale(1.1);
+}
+
+
+.avaliacao4{
+    width: 320px;
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px black;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.avaliacao4:hover{
+    transform: scale(1.1);
+}
+
+#historia{
+    background-color: gray;
+    opacity: 0;
+    width: 100%; 
+    min-height: 20px; 
+    margin-top:14px;
+    margin-bottom: 14px;
+    margin: 14px;
+    border-radius: 2px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#historia:hover{
+    opacity: 1;
+   
+}
+
+#h2{
+    text-align: center;
+}
+
+.frase-impacto{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
